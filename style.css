@@ -1,0 +1,133 @@
+
+
+*{
+    font-family: 'Bacasime Antique', serif;
+
+}
+body{
+    height: 100vh;
+    background-image:url('./images/oceano.jpg') ;
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:bottom; */
+    /* background-attachment: fixed; */
+
+}
+.inp{
+    border:0;
+    outline: 0;
+    background: #ebfffc;
+    padding: 10px 10px;
+    height: 40px;
+    border-radius:30px;
+    /* flex:1; */
+    margin-right:16px;
+    font-size: 18px;
+    width: 375px;
+    margin-top: 10px;
+}
+.col_4{
+    background: linear-gradient(135deg, rgb(0, 254, 186),rgb(91, 84, 138));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    /* width: 400px; */
+    height: 500px;
+
+}
+
+.searchbtn{
+    border-radius: 30px;
+    margin-left: -3.8rem;
+    margin-top: 10px;
+
+}
+.searchbtn:active{
+    outline: none;
+    /* border: none; */
+}
+.imgs{
+    width: 100px;
+    height: 100px;
+    /* padding:5px; */
+    /* margin: 5px; */
+    border-radius: 50px;
+    mix-blend-mode: color-burn;
+    
+}
+.detailsLeft{
+    margin-top: 150px;
+    font-size: 20px;
+}
+.detailsRight{
+    /* border: 1px solid red; */
+    padding-top:100px;
+    font-size: 19px;
+    
+}
+.weatherDetails{
+    font-size:20px;
+}
+@media only screen and (max-width:500px) {
+    body{
+        height: 111.6vh;
+    }
+    .col_4{
+        background: linear-gradient(135deg, rgb(0, 254, 186),rgb(91, 84, 138));
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        width: 450px;
+        height: 500px;
+        margin-left:28px;
+    
+    }
+    
+} 
+@media only screen and (max-width:400px) {
+    body{
+        height: 111.6vh;
+    }
+    .col_4{
+        background: linear-gradient(135deg, rgb(0, 254, 186),rgb(91, 84, 138));
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        width: 350px;
+        height: 500px;
+        margin-left:25px;
+        flex-wrap: wrap;
+    
+    }
+    
+} 
+    
+@media only screen and (max-width:600px) {
+    body{
+        height: 111.6vh;
+    }
+    .col_4{
+        background: linear-gradient(135deg, rgb(0, 254, 186),rgb(91, 84, 138));
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        width: 450px;
+        height: 500px;
+        margin-left:45px;
+    
+    }
+    
+} 
+@media only screen and (max-width:700px) {
+    body{
+        height: 111.6vh;
+    }
+    .col_4{
+        background: linear-gradient(135deg, rgb(0, 254, 186),rgb(91, 84, 138));
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        width: 550px;
+        height: 500px;
+        margin-left:-5px;
+    
+    }
+    
+} 
+    
